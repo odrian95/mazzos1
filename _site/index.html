@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch|Cinzel+Decorative|Coming+Soon|Gruppo|Megrim|Share+Tech+Mono" rel="stylesheet">
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|El+Messiri|Candal|Syncopate" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|El+Messiri|Lobster|Syncopate" rel="stylesheet">
 
 
     <!-- Bootstrap CSS -->
@@ -26,7 +25,7 @@
     <link rel="stylesheet" href="app.css" type="text/css">
 
 
-    <title>Catálogo</title>
+    <title>Mazzo's</title>
   </head>
   <body>
 <section id="header">
@@ -79,16 +78,16 @@
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#">Inicio</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Cursos</a>
+        <a class="nav-link" href="#about">Cursos</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Catálogo</a>
+        <a class="nav-link" href="#catalog">Catálogo</a>
       </li>      
         <li class="nav-item">
-        <a class="nav-link" href="#">Ubicación</a>
+        <a class="nav-link" href="#contact">Ubicación</a>
       </li>
 
     </ul>
@@ -106,7 +105,7 @@
         <div class="row">
             <div class="col-lg-12 text-center" style="margin-top: 16%">
                 <div class="cover-img">
-                    <img src="../img/logo2501.png">
+                    <img src="../img/logo2501.png" style="margin-bottom: 520px">
                 </div>
             </div>
         </div>
@@ -120,91 +119,81 @@
 
 </section>
 <section id="about">
-    <div class="features">
+    <div class="banner col-md-12 text-center">
+        <h1 style="color: black" id="intro">Bienvenid@s!</h1>
+</div>
+    
+    <div class="features banner" style="margin-top: 80px">
         <div class="row">
-            
-<div class="col-lg-4 text-center">
-        <div class="snippet" style="padding: 50px"><h4 style="color: black;">Spa</h4>
-        <img src="../img/about/351a2649ea86.jpeg" class="imgabout">
-            <p style="margin-top: 8px">Ven y renuévate con nuestro spa! <br>Contamos con servicio de micropigmetación, maquillaje de cejas y venta de insumos!</p>
-            <br>
-            <button type="button" class="btn btn-purple" href="#map">Ubicación</button>
-
-
-
-    </div>
-
-        </div>       
-        <div class="col-lg-4 text-center">
-        <div class="snippet" style="padding: 50px"><h4 style="color: black;">Cursos</h4>
-        <img src="../img/about/images.jpg" class="imgabout">
+                          
+                    <div class="col-lg-4 text-center">
+        <div class="snippet" style="padding: 50px"><h4 style="color: #6700DE;">Cursos</h4>
+        <img src="https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29573266_1004178883080501_375284538243557981_n.jpg?_nc_cat=0&oh=88270f254b9e4e003c60aceaa9b20c72&oe=5B3C10F9" class="imgabout">
                 <p style="margin-top: 8px">Inscríbete a nuestros cursos de<br>
-                Extensiones<br>
-                Lifting<br>
-                Ondulado de pestañas</p>
+                - Extensiones<br>
+                - Lifting<br>
+                - Ondulado de pestañas</p>
                 
                 <p style="color: purple; text-decoration: underline">Incluye kit</p>
             
-<button type="button" class="btn btn-purple" data-toggle="modal" data-target="#exampleModal">Inscripción</button>
-                        <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Curso de micropigmentación</h5>
-          <br>
-          
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-check">
-    <input type="checkbox" class="form-check-input" id="exampleCheck1">
-    <label class="form-check-label" for="exampleCheck1">Check me out</label>
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
+<button type="button" class="btn btn-purple" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='../img/cursos/123.jpg'>" data-html="true" data-placement="bottom">Saber más...</button>
+            
+            
 </div>
-            
-            
-            </div>
-
-        </div>       
-        <div class="col-lg-4 text-center">
-        <div class="snippet" style="padding: 50px"><h4 style="color: black;">Catálogo</h4>
-        <img src="../img/about/10.jpg" class="imgabout">
-                <p style="margin-top: 8px">Conoce nuestros artículos y accesorios para depilación, micropigmentación y mucho más!</p>
-            <br>
-            <br>
-<button type="button" class="btn btn-purple" href="#catalog">Saber más...</button>
+</div> 
+             <div class="col-lg-4 text-center">
+        <div class="snippet" style="padding: 50px"><h4 style="color: #6700DE;">Micropigmentación</h4>
+        <img src="https://78.media.tumblr.com/91f6cb039456e69ee39fe641d7427ee9/tumblr_p67yot3loJ1rbtrrio1_250.jpg" class="imgabout">
+                <p style="margin-top: 8px">La micropigmentación es una especialidad cuyo fin es el de embellecer o mejorar determinados rasgos.</p>
+       
+<button type="button" class="btn btn-purple" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='../img/cursos/publicidad.jpg'>" data-html="true" data-placement="bottom">Saber más...</button>
 
             </div>
         </div>
+     
+              <div class="col-lg-4 text-center">
+        <div class="snippet" style="padding: 50px"><h4 style="color: #6700DE;">Conócenos</h4>
+        <img src="https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29498141_1004178886413834_6069668553680947364_n.jpg?_nc_cat=0&oh=19097cb04952345c77e3731b6b319695&oe=5B4666EB" class="imgabout">
+            <p style="margin-top: 8px">Ven y renuévate con nuestro Spa! <br>Reserva tu cita: 3122742389<i class="fab fa-whatsapp"></i><br><br>Ademas contamos con una amplia línea de productos y cursos asesorados...</p>
+
+
+
+            </div>
+
+        </div>  
+                        
+
+            
+
     </div>
 
  
-     </div>
+</div>
+    
+    <div class="video" style="margin-top: 14%">
+        
+        <div class="col-md-12 text-center">
+            <h3>Conoce el proceso desde cerca</h3>
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <iframe src="https://player.vimeo.com/video/261938004" width="520" height="320" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+        </div>
+      
+                   
+            
+
+            
+            
+     
+        
+    </div>
 
 
 </section>
+ 
 <section id="catalog">
 
 <div class="col-lg-12 text-center">
@@ -218,17 +207,17 @@
                    
 
         <div class="col-lg-12 text-center">
-            <div id="products">
+            <div id="test-list">
 
-            <h3>CATALOGO</h3>
-            <hr>
+                    <h3>Catálogo de insumos</h3>
+                    <hr>
                 <br>
-  <input class="search" placeholder="Search" />
+  <input class="fuzzy-search" placeholder="Search" />
                 <!--icon-->
                 <br>
                 <br>
 
-  <div class="list" data-sort="name">
+  <div class="list">
       
       <div class="row">
       <div class="col-lg-4 text-center">
@@ -238,16 +227,16 @@
         <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='https://78.media.tumblr.com/13d85899f5cd22f89bf11668e813262c/tumblr_p64ahg0l2S1rbtrrio2_400.png'><br><h2>$25.000</h2>" data-html="true">Pega para lifting u ondulado de pestañas</button>
         </div>            
             <div class="col-lg-4 text-center">
-        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='https://78.media.tumblr.com/2f36858c9b1ee719536598e8a306e6b3/tumblr_p64d00Vbtt1rbtrrio2_400.jpg'><br><h2>$180.000</h2>" data-html="true">Dermografo para micropigmentación</button>
+        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='https://78.media.tumblr.com/fc8b56ddd5eb1970c4aeb12fefd8ba32/tumblr_p67zys3aDY1rbtrrio3_400.png'><br><h2>$180.000</h2>" data-html="true">Dermografo para micropigmentación</button>
         </div> 
       </div>
              
 <div class="row">
                   <div class="col-lg-4 text-center">
-        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='https://78.media.tumblr.com/b4d693add7dcb5b6138b7340f9b61b30/tumblr_p64ahg0l2S1rbtrrio4_400.jpg'><br><h2>$25.000</h2>" data-html="true">Bigubies o rulos para ondulado de pestañas</button>
+        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='https://78.media.tumblr.com/31e0bf9f4cda51fa97ddd1ecac1b1be4/tumblr_p67zys3aDY1rbtrrio1_400.png'><br><h2>8 pares x $5.000</h2>" data-html="true">Bigubies o rulos para ondulado de pestañas</button>
         </div>           
             <div class="col-lg-4 text-center">
-        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='https://78.media.tumblr.com/b4d693add7dcb5b6138b7340f9b61b30/tumblr_p64ahg0l2S1rbtrrio4_400.jpg'><br><h2>$20.000</h2>" data-html="true">Extension de pestañas pelo de castor</button>
+        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title="" data-content="<img class='img-responsive' src='https://78.media.tumblr.com/7364eac92226deaeeef6c40d28e79576/tumblr_p67zys3aDY1rbtrrio2_400.jpg'><br><h2>$20.000</h2>" data-html="true">Extension de pestañas pelo de castor</button>
         </div>             
     
     <div class="col-lg-4 text-center">
@@ -265,7 +254,7 @@
         </div>     
     
     <div class="col-lg-4 text-center">
-        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://78.media.tumblr.com/1bf7d068126cc578c1843483d76eee0c/tumblr_p64bspEcug1rbtrrio1_1280.jpg'><br><h2>$55.000</h2>" data-html="true">Pega profesional para extension de pestañas (seca en 3 seg)</button>
+        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29541809_1005215612976828_5828049483598479854_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeGFFZMatddpYyqwf15GyHKAqMP2HRQPeGGkrd6DrBFmKwp0nCXIQk5-ZPi5hHmaxbowLEGXcEIOaKhEOTpVexlXe18WZSDK2LtX2U0zdcDimg&oh=2a2169eb76a556c3307d6a1c748124e3&oe=5B711FD9'><br><h2>$55.000</h2>" data-html="true">Pega profesional para extension de pestañas (seca en 3 seg)</button>
         </div>  
       </div>
     <div class="row">
@@ -294,13 +283,13 @@
         </div>      
     
     <div class="col-lg-4 text-center">
-        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://78.media.tumblr.com/0ae5d9384a53d964674d3b9456970f1f/tumblr_p64ca8AaRA1rbtrrio1_1280.jpg'><br><h2>$20.000</h2>" data-html="true">Vitamina A+ D Fougera (10 unidades)</button></div>
+        <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29572845_1005215622976827_6239184254084064612_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeHK0Cy5G9Yeho2oj9Q_zmECpMbM1BaM9GrPnW5LrwKWQJTInO_KPGO2b1hFrxHEO0fMb0Rwb00eLqM3zrpN4djGa7jez4yjA_RcrTne90q4rA&oh=cae87d57e23ae5f21b61f10308a690fa&oe=5B74736B'><br><h2>$20.000</h2>" data-html="true">Vitamina A+ D Fougera (10 unidades)</button></div>
       </div>
       <div class="row">
 
         
         <div class="col-lg-4 text-center">
-            <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://78.media.tumblr.com/953f051201a8914cf1d756f12571fcc9/tumblr_p5nc4aFHqN1rbtrrio1_400.jpg'><br><h2>$4.000</h2>" data-html="true">Agujas Para Charmant </button> </div>         
+            <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://78.media.tumblr.com/b8d10311215f7f0248039ec7a2e33f15/tumblr_p64bspEcug1rbtrrio2_400.jpg'><br><h2>$4.000</h2>" data-html="true">Agujas Para Charmant </button> </div>         
       
       <div class="col-lg-4 text-center">
             <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://78.media.tumblr.com/8c5a341d915e10d852c7dd9ef6a1ddb9/tumblr_p64cs7T1pd1rbtrrio3_400.jpg'><br><h2>$85.000</h2>" data-html="true">Pigmentos Biotouch para micropigmentación (3 unidades) </button> </div>         
@@ -311,13 +300,15 @@
       <div class="row">
 
       <div class="col-lg-4 text-center">
-            <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src=''><br><h2>$4.000</h2>" data-html="true">Productos para extensión de pestañas</button> </div>      
+            <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29570305_1005210022977387_5061589233956986720_n.jpg?_nc_eui2=v1%3AAeGPgnuF_AFKnlIBMWfWArjEkY7jeHoRuQpaajgmTa6ypDxi8UrSRac9CDHcVbIC4Xy7rm0Fa_de3GNngT0aD0QJRYRsPE_WKanjNRgGO6gjuw&oh=92528864c805a727f8cb9ca7f55631d6&oe=5B2D2A26'> 
+            
+            <img class='img-responsive' src='https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29542280_1005210062977383_5509211116609398066_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeFo8GW2qYAERjAsWLp0KXavDRdi2bai6uJPrI7RT8JISy8F7efOJGfxo4JZJBRBCwHzX2IXVyvo_H7I_-q7irQlXeAdq7pOL4-rdRtORWdg5g&oh=a877b4f0e3ed1b4ea91d3aa8908245b2&oe=5B31548D'><br><h2>$15.000</h2>" data-html="true">Productos  para extension de pestañas, pinzas, anillos, etc</button> </div>      
       
       <div class="col-lg-4 text-center">
-            <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://78.media.tumblr.com/13996615e1efcc61ff359814ab30247d/tumblr_p64d00Vbtt1rbtrrio1_400.jpg'><br><h2>$15.000</h2>" data-html="true">Productos para extensión de pestañas</button> </div>       
+            <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29512919_1005210056310717_1708221715264400566_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeF_XzUmCjFjYVMMNQrFA4ByCh-9SgllKAjd4F4WV8qrmWI8xyA31h3Scvd4cr_tWcNLBfi-lqISesCqy9yLtzXBZnTeFT9sjf9IpV767FHpEA&oh=d08fff4b0518e652bb54045e37f4c338&oe=5B4128AD'><br><h2>$15.000</h2>" data-html="true">Productos para micropigmentacion, pigmentos, agujas, etc.</button> </div>       
       
       <div class="col-lg-4 text-center">
-            <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://urbanyel.tk/private/image/172218523105/tumblr_p64d4nYmLT1rbtrri'><br><h2>$350.000</h2>" data-html="true">Extensión de cabello natural 100% garantizado (1.90 metros de largo)</button> </div> 
+            <button type="button" class="name btn btn-outline-purple" id="abtn" role="button" data-toggle="popover" data-trigger="focus" title=" " data-content="<img class='img-responsive' src='https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29683677_1005215346310188_5227573034111504006_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeEsCVih_69see0XM2IqXNGvZd3N6Fn1IGmFkjx_V-IGX0sLYFsozN0cD2zVZwtg4ir43i5fDT-rmnJOhb-r9rQlqdx_684EZFTqxupn_PIo4g&oh=92b31c0bc1c5ead95ea385b467f86589&oe=5B75DFC0'><img class='img-responsive' src=' https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29572657_1005215359643520_6554483867702346251_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeFxoW4fjrcjD12w98DWElaawAInqzipF6sHx_H1Eli_yCz-dGy2_Xsc47p6aYavso72x0LkHnOFl8VoPgFp7l7Y8QE5RPDu9XyW8V2l_Oby6g&oh=ac3147e2774b70d1e696c28507073dfe&oe=5B72E971'><br><h2>$350.000</h2>" data-html="true">Extensión de cabello natural 100% garantizado 20.22 (mide 1.90 metros de largo)</button> </div> 
           
             
 
@@ -350,49 +341,54 @@
 
         </div>
 </section>
+
+<section id="contact">
+
 <div class="contact">
     
             
     <div class="col-lg-12 text-center" style="margin-top: 9.9%">
-        <h2 style="font-size: 40px">Contacto</h2>
+        <p style="font-size: 40px">Contacto</p>
     <div class="social" style="margin-left: 19.5%">
     <div class="row">
                 <div class="col-md-3">
                         <br><br>
-            
-                    <h4 style="font-size: 35px"><i class="fab fa-whatsapp"></i> +57 3122742389</h4>
+            <p style="font-size: 28px"><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/esteticamazzos/?hl=en">Instagram</a></p>
+                 
                 
                     </div>   
-                    <div class="col-md-3">
-                        <br><br>
-            
-                        <h4 style="font-size: 35px"><i class="fab fa-instagram"></i> <a href="https://www.instagram.com/">Instagram</a></h4>
-                
-    </div>
+
         <div class="col-md-3">
             <br><br>
             
-    <h4 style="font-size: 35px"><i class="fab fa-facebook"></i> <a href="https://www.facebook.com/">Facebook</a></h4>
+    <p style="font-size: 28px"><i class="fab fa-whatsapp"></i> +57 3122742389</p>
             </div>
+                            <div class="col-md-3">
+                        <br><br>
+            
+                            <p style="font-size: 28px"><i class="fas fa-map-marker-alt"></i> Cll 44 San Juan #73-90</p>
+                       
+                
+    </div>
                 
     </div>
     </div>
             
 
-    <div class="col-lg-12 text-center" style="margin-top: 100px">
-        <p style="font-size: 55px">Erica_7304@hotmail.com</p>
-                <br>
-                <br>
-        <h5 id="map">Mapa</h5>
-        <br>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253821.60143680254!2d-75.73647877240792!3d6.268659412394728!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4428ef4e52dddb%3A0x722fd6c39270ac72!2sMedellin%2C+Antioquia!5e0!3m2!1sen!2sco!4v1521047704933" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <div class="col-lg-12 text-center" style="margin-top: 100px; margin-bottom: 150px">
+        
+        <p style="font-size: 55px"><i class="far fa-envelope"></i> Erica_7304@hotmail.com</p>
 
+
+ 
+
+            </div>
+
+        </div>
+    
+    
     </div>
-
-</div>
-    
-    
-</div>
+</section>
 
 <footer>
      <div class="container " style="margin-left: 14.5%">
@@ -400,42 +396,28 @@
             
 
             
-            <div class="col-lg-3">
-                <h6>Nav</h6>
+            <div class="col-lg-4">
+                <h6>Navegador</h6>
                 <ul class="unstyled">
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Parnerts</li>
-                    <li>Social</li>
+                    <li><a href="#" style="color: white">Inicio</a></li>
+                    <li><a href="#about" style="color: white">Conocenos</a></li>
+                    <li><a href="https://www.instagram.com" style="color: white">Instagram</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3">
-                <h6>Síguenos</h6>
-                <ul class="unstyled">
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>gitHub</li>
-                    <li>Steemit</li>
-                </ul>
+            <div class="col-lg-4">
+                <h6>Mapa del sitio</h6>
+            <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.1065784386624!2d-75.59519018523072!3d6.249684895476275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44290a0c571805%3A0x54d7cf14b23b7a5!2sAv.+San+Juan+%2373-90%2C+Medell%C3%ADn%2C+Antioquia!5e0!3m2!1sen!2sco!4v1522168324624" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>            
-            <div class="col-lg-3">
-                <h6>Síguenos</h6>
-                <ul class="unstyled">
-                    <li>Facebook</li>
-                    <li>Instagram</li>
-                    <li>gitHub</li>
-                    <li>Steemit</li>
-                </ul>
-            </div>
 
-            <div class="col-lg-3">
+
+            <div class="col-lg-4">
                 <h6>Copyright &copy; 2018</h6>
                 
                 
                 <h6>Todos los derechos reservados</h6>
                 
                 
-                <h6>Code by <a href="https://www.instagram.com/neondev95/?hl=en">@odrian</a></h6>
+                <a href="https://www.instagram.com/rubypersa/?hl=en" style="color: white">@odrian</a>
             </div>
             
          

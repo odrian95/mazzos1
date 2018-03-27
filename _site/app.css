@@ -1,7 +1,14 @@
+p {
+  color: #8E24AA; }
+
 body {
   width: 100%;
   height: 100%;
   overflow-X: hidden; }
+
+a {
+  color: #512E7B;
+  font-family: "Syncopate", sans-serif; }
 
 ul {
   display: inline-block; }
@@ -12,17 +19,18 @@ h1 {
   color: white; }
 
 h2 {
-  font-family: "Candal", sans-serif; }
+  font-family: "Lobster", cursive; }
 
 h3 {
-  font-family: "Candal", sans-serif;
-  font-size: 33px; }
+  font-family: "Lobster", cursive;
+  font-size: 45px;
+  color: #8E24AA; }
 
 h4 {
   font-family: "El Messiri", sans-serif; }
 
 h5 {
-  font-family: "Candal", sans-serif; }
+  font-family: "Lobster", cursive; }
 
 p, li, input {
   font-family: "Syncopate", sans-serif; }
@@ -33,7 +41,7 @@ p, li, input {
 .cover {
   height: 800px;
   width: 100%;
-  background: url("../img/sharon-mccutcheon-549924-unsplash.jpg") bottom center no-repeat;
+  background: url("https://scontent.fbog1-1.fna.fbcdn.net/v/t31.0-8/29060433_1004171436414579_5522812546639586623_o.jpg?_nc_cat=0&oh=77cd1ec09b9210f6eda4d9d0435de510&oe=5B42779C") bottom center no-repeat;
   background-size: cover;
   background-attachment: fixed; }
 
@@ -65,16 +73,11 @@ button {
 #productos {
   font-size: 50px; }
 
-.email {
-  border: pink inset 4px;
-  padding: 8% 10% 1% 10%;
-  margin-left: 27%; }
-
 .name {
   margin-top: 22px; }
 
 .features {
-  margin-left: 17%;
+  margin-left: 18%;
   display: inline-block; }
 
 .snippet {
@@ -91,18 +94,36 @@ button {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F3CFFF', endColorstr='#FFF9F5',GradientType=1 ); }
 
 #about {
-  margin-top: 220px; }
+  margin-top: 111px; }
 
 .imgabout {
-  border-radius: 70%; }
+  border-radius: 80%; }
+
+.banner {
+  opacity: 0;
+  transition: all 1.6s ease-in-out; }
+  .banner.scrolled {
+    opacity: 1; }
+
+#intro {
+  background: -webkit-linear-gradient(#A808FF, #D6FEFF);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
 
 #products {
   display: inline-table;
   margin-top: 6%; }
 
+#catalog {
+  margin-top: 150px; }
+
 footer {
-  background: url("https://78.media.tumblr.com/9a30e6c6c75344e5bd217bbe9720ef3e/tumblr_inline_p5nc3yLmS61rttew3_540.png");
-  padding: 3%;
+  background: url("https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29541197_1005233916308331_3277437078669218288_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeH1cyC5NaI9AsbVP03J2-1KY72nFmE16Y2gxTNHsdK3FU3McV8DAiGOy52TrQrE2qsC7u67GC5dQkSxn9vNr6V_Y8pVt7XWvjjNW9xZQAM_Ag&oh=e7d729e068f155abd4722f9276ea2d7d&oe=5B420B64");
+  padding: 2%;
   color: whitesmoke; }
+
+#map {
+  width: 291px;
+  height: 111px; }
 
 /*# sourceMappingURL=app.css.map */
