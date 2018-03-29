@@ -132,6 +132,14 @@ button {
 button {
   text-transform: uppercase; }
 
+.btn-circle.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px; }
+
 footer {
   background: url("https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29541197_1005233916308331_3277437078669218288_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeH1cyC5NaI9AsbVP03J2-1KY72nFmE16Y2gxTNHsdK3FU3McV8DAiGOy52TrQrE2qsC7u67GC5dQkSxn9vNr6V_Y8pVt7XWvjjNW9xZQAM_Ag&oh=e7d729e068f155abd4722f9276ea2d7d&oe=5B420B64");
   padding: 2%;
