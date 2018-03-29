@@ -1,5 +1,9 @@
+.btn {
+  font-family: "Syncopate", sans-serif; }
+
 p {
-  color: #8E24AA; }
+  font-size: 22px;
+  color: #512E7B; }
 
 body {
   width: 100%;
@@ -7,7 +11,7 @@ body {
   overflow-X: hidden; }
 
 a {
-  color: #512E7B;
+  color: #6700DE;
   font-family: "Syncopate", sans-serif; }
 
 ul {
@@ -24,15 +28,17 @@ h2 {
 h3 {
   font-family: "Lobster", cursive;
   font-size: 45px;
-  color: #8E24AA; }
+  color: #512E7B; }
 
 h4 {
-  font-family: "El Messiri", sans-serif; }
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  color: #512E7B; }
 
 h5 {
-  font-family: "Lobster", cursive; }
+  font-family: "Syncopate", sans-serif; }
 
-p, li, input {
+li, input {
   font-family: "Syncopate", sans-serif; }
 
 #header {
@@ -81,10 +87,11 @@ button {
   display: inline-block; }
 
 .snippet {
+  font-family: "Berkshire Swash", cursive;
   margin-left: 11px;
   border-radius: 50px 15px;
-  width: 300px;
-  height: 464px;
+  width: 310px;
+  height: 600px;
   background: -moz-linear-gradient(45deg, #fff9f5 0%, #fff9f5 13%, #f3cfff 100%);
   background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #fff9f5), color-stop(13%, #fff9f5), color-stop(100%, #f3cfff));
   background: -webkit-linear-gradient(45deg, #fff9f5 0%, #fff9f5 13%, #f3cfff 100%);
@@ -95,6 +102,10 @@ button {
 
 #about {
   margin-top: 111px; }
+
+.about {
+  font-family: "Berkshire Swash", cursive;
+  color: #512E7B; }
 
 .imgabout {
   border-radius: 80%; }
@@ -110,12 +121,15 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
-#products {
-  display: inline-table;
-  margin-top: 6%; }
-
 #catalog {
-  margin-top: 150px; }
+  margin-top: 3%; }
+
+.list {
+  max-width: 72%;
+  margin-left: 13.8%; }
+
+button {
+  text-transform: uppercase; }
 
 footer {
   background: url("https://scontent.fbog1-1.fna.fbcdn.net/v/t1.0-9/29541197_1005233916308331_3277437078669218288_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeH1cyC5NaI9AsbVP03J2-1KY72nFmE16Y2gxTNHsdK3FU3McV8DAiGOy52TrQrE2qsC7u67GC5dQkSxn9vNr6V_Y8pVt7XWvjjNW9xZQAM_Ag&oh=e7d729e068f155abd4722f9276ea2d7d&oe=5B420B64");
